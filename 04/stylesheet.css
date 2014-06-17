@@ -1,0 +1,83 @@
+html {
+}
+
+h1, h2, h3 {
+	font-family: Georgia, serif;
+}
+
+h1 {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 42px;
+	color: #930;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 22px;
+	font-style: italic;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #eee;
+}
+
+body {
+	background: #666;
+	margin: 0px;
+	color: #333;
+	font-family: Helvetica;
+}
+
+a {
+	color: #930;
+}
+
+.list_title {
+	text-transform: uppercase;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 14px;
+	color: #999;
+}
+
+.source {
+	font-style: italic;
+}
+
+.content {
+	margin: auto;
+	background: #fff;
+	width: 975px;
+	padding: 50px 100px 100px 100px;
+}
+
+ol {
+	counter-reset: item
+}
+
+ol li {
+	display: block
+}
+
+ol li:before {
+	content: counters(item, ".") ". ";
+	counter-increment: item
+}
+
+blockquote {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 16px;
+	background: #f6f6f6;
+	border-left: 10px solid #e3e3e3;
+	padding: 5px 20px 5px 20px;
+}
+
+
+
+
