@@ -1,0 +1,11 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.intro {
+	background-image: url(../app/images/intro_bg.jpg);
+	background-position: center;
+	height: 450px;
+	margin: 100px 0px 50px -8px;
+	color: #ffffff;
+}

@@ -1,0 +1,14 @@
+.fit_image {
+	width: 100px%;
+}
+
+.feature:before {
+	background: url(../images/icon_sprite.png) no-repeat;
+	background-position: 0,0;
+	content: '';
+	display: inline-block;
+	height: 60px;
+	overflow: hidden;
+	width: 60px;
+}
+

@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.social_nav {
+	margin: 0;
+
+}
+
+.main_header {
+	
+}
+
+.footer {
+	background: #241915;
+	color: #fff;
+	padding: 50px 0;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+
+
+.line {
+	border-bottom: 1px solid #cecfd5;
+	padding: 10px 0px 10px 0px;
+}
