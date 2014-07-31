@@ -1,0 +1,26 @@
+	.fit_image {
+	width: 100px%;
+}
+
+.feature:before {
+	background: url(../images/icon_sprite.png) no-repeat;
+	background-position: 0,0;
+	content: '';
+	display: inline-block;
+	height: 60px;
+	overflow: hidden;
+	width: 60px;
+}
+
+	*, *:before, *:after {
+	    -webkit-box-sizing: border-box;
+	       -moz-box-sizing: border-box;
+	            box-sizing: border-box;
+	}
+
+	html,
+	body {
+		background: #eee;
+		font-family: Helvetica, sans-serif;
+		line-height: 1.5;
+	}
